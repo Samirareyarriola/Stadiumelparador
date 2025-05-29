@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-family: 'Teko', sans-serif;
   background: #f5f5f5;
@@ -96,3 +97,103 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+=======
+body {
+  font-family: 'Teko', sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header img {
+  max-width: 120px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  margin: 0;
+  color: #00bcd4;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #00bcd4;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #0195a6;
+}
+
+.confirmation {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #d4edda;
+  color: #155724;
+  display: none;
+}
+
+.info {
+  font-size: 0.95em;
+  margin-top: 10px;
+  color: #333;
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+footer a {
+  color: #00bcd4;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+>>>>>>> ae9f8dea7927a4850f9b5438d80cc761ea1dddcd
